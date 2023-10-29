@@ -6,8 +6,8 @@ netlistFileName = 'netlist.ipc'
 designatorsFileName = 'designators.csv'
 placementFileName = 'positions.csv'
 bomFileName = 'bom.csv'
-gerberArchiveName = 'gerbers.zip'
-outputFolder = 'production'
+gerberArchiveName = 'Gerbers.zip'
+outputFolder = 'Production'
 bomRowLimit = 256
 
 plotPlan = [
