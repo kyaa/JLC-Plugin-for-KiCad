@@ -100,6 +100,8 @@ class ProcessManager:
         plot_options.SetUseAuxOrigin(True)
         plot_options.SetSubtractMaskFromSilk(True)
         plot_options.SetDrillMarksType(0)  # NO_DRILL_SHAPE
+        plot_options.SetPlotValue(False)
+        plot_options.SetPlotReference(False)
         
         if hasattr(plot_options, "SetExcludeEdgeLayer"):
             plot_options.SetExcludeEdgeLayer(True)
